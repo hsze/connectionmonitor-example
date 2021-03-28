@@ -15,7 +15,8 @@ The main steps to set up Connection Monitor from the two workloads are described
 In this example we are setting up monitoring from a Azure VM in EastUS to a VM that is connected via simulated VPN to On Prem.  
 -	Azure VM = 10.61.1.4, in EastUS VNET
 -	On-Prem VM = 172.20.3.4
-First, we add the Network Watcher extension on the Azure VM:
+First, we add the Network Watcher extension on the Azure VM
+![Extension](/Images/image1.png)
  
 But we will not install the Azure Monitor agent on the On-Prem VM as it does not need to initiate connections for our test.  This also represents an Appliance.
 Next we verify that Network Watcher is enabled in the subscription and region of the VM:
