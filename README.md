@@ -1,6 +1,6 @@
 # connectionmonitor-example
 # Using Connection Monitor to measure latency between endpoints
-Connection Monitor is a tool within the Azure Network Watcher suite of network management tools.  Connection Monitor provides unified end-to-end connection monitoring and supports hybrid and Azure cloud deployments.  The use cases supported are described here.
+Connection Monitor is a tool within the [Azure Network Watcher](https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-monitoring-overview) suite of network management tools.  Connection Monitor provides unified end-to-end connection monitoring and supports hybrid and Azure cloud deployments.  The use cases supported are described [here](https://docs.microsoft.com/en-us/azure/network-watcher/connection-monitor-overview).
 ## Monitoring Scenario
 Imagine a scenario where you have a mission-critical OnPrem server, and you would like to monitor the availability and latency of this server from various Azure regions, and you would even like to monitor the availability and latency within Azure.  You can easily set up Connection Monitor “tests” to collect these KPI. 
 ## Set Up and Configuration:
